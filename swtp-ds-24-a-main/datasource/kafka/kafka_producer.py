@@ -11,7 +11,7 @@ conf = {#'bootstrap.servers': 'localhost:9092',
              #'queue.buffering.max.messages': 1000000,
              'queue.buffering.max.ms' : 500
         }
-producer = KafkaProducer(bootstrap_servers="slo.swe.th-luebeck.de:9092", value_serializer=encode, acks=0, retries=3, linger_ms = 2, batch_size = 0)
+producer = KafkaProducer(bootstrap_servers="#####", value_serializer=encode, acks=0, retries=3, linger_ms = 2, batch_size = 0)
 
 
 data = {
